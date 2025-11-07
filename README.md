@@ -9,5 +9,9 @@ This project is an AI-powered chatbot that uses Retrieval-Augmented Generation (
 
 ## Installation
 ```bash
-pip install -r requirements.txt
+pip install streamlit = "*"
+langchain-groq = "*"
+langchain-community = "*"
+pypdf = "*"
+sentence-transformers = "*"
 streamlit run phase_1.py
